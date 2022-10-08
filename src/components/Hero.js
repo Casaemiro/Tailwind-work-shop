@@ -1,6 +1,7 @@
 import Filters from "./Filters";
 import HeroBigText from "./HeroBigText";
 import HeroSmallText from "./HeroSmallText";
+import Name from "./Name";
 import SearchBar from "./SearchBar"
 import TrendingSearches from "./TrendingSearches"
 
@@ -13,7 +14,7 @@ const Hero = () => {
             <HeroSmallText />
             <SearchBar />
             <TrendingSearches />
-            
+            <Name />
         </div>
     );
 }

@@ -1,16 +1,19 @@
 const Navbar = () => {
     return ( 
         <div className="flex p-5">
-            <div className="flex-none ">
-                dribbble
+            <div className="flex-none flex items-center">
+                <div className=''>
+                    dribbble
+                </div>
+                
             </div>
-            <div className="flex-auto px-5">
-                <a href='/' className="px-5">Inspiration</a>
-                <a href='/' className="px-5">Find Work</a>
-                <a href='/' className="px-5">Learn Design</a>
-                <a href='/' className="px-5">Go pro</a>
-                <a href='/' className="px-5">Design files</a>
-                <a href='/' className="px-5">Hire Designers</a>
+            <div className="flex flex-auto md:gap-8 sm:gap-1 items-center md:text-sm sm:text-xs pl-5">
+                <a href='/' className="">Inspiration</a>
+                <a href='/' className="">Find Work</a>
+                <a href='/' className="">Learn Design</a>
+                <a href='/' className="">Go pro</a>
+                <a href='/' className="">Design file</a>
+                <a href='/' className="">Hire Designer</a>
             </div>
             <div>
                 <span className="mx-4">Sign in</span>
